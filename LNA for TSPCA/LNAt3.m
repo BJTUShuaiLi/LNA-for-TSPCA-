@@ -34,7 +34,7 @@ warning off;
 t0     = tic;
 
 if  nargin<3         
-    disp(' No enough inputs. No problems will be solverd!'); return;   
+    disp(' No enough inputs. No problems will be solved!'); return;   
 elseif nargin==3
     disp(' We will solve this problem in a general way');
     probname = 'general_example';  
