@@ -11,7 +11,7 @@ function [xopt,Out] = LNAt3(n, s, data,  probname, pars)
 %     s       : Sparsity level of x, an integer between 1 and n-1, (required)
 %     data    : 
 %   
-%               data.A  --  3 order n dims hyper symmetric tensor (required)
+%               data.A  --  3 order n dims supersymmetric tensor (required)
 %     probname: Name of problem, should be {'TSPCA'}
 %     pars:     Parameters are all OPTIONAL
 %               pars.x0     --  Starting point of x,   pars.x0=zeros(n,1) (default)
