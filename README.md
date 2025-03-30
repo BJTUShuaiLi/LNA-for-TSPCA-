@@ -1,2 +1,6 @@
 # LNA-for-TSPCA-
-This code aims at solving the tensor sparse PCA with form min_{x\in R^n} -\cal{A}x^d  s.t. x^{T}x=1, \|x\|_0&lt;=s
+This solver was created based on the algorithm proposed by
+
+Li, Shuai, Ziyan Luo, and Yang Chen. "A Lagrange–Newton algorithm for tensor sparse principal component analysis." Optimization 73.9 (2024): 2933-2951.
+
+Please credit this paper if you use the code for your research.
